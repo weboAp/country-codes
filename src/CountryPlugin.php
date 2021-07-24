@@ -44,8 +44,8 @@ class CountryPlugin implements PluginInterface, EventSubscriberInterface
         );
     }
     
-    public static function deactivate(){}
-    public static function uninstall(){}
+    public function deactivate(){}
+    public function uninstall(){}
 
     /**
      * Update the stored database.
