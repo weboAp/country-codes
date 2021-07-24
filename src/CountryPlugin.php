@@ -43,6 +43,9 @@ class CountryPlugin implements PluginInterface, EventSubscriberInterface
             ScriptEvents::POST_UPDATE_CMD  => 'update',
         );
     }
+    
+    public static function deactivate(){}
+    public static function uninstall(){}
 
     /**
      * Update the stored database.
