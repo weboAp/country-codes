@@ -45,7 +45,7 @@ class CountryPlugin implements PluginInterface, EventSubscriberInterface
     }
     
     public function deactivate(Composer\Composer $composer, Composer\IO\IOInterface $io){}
-    public function ninstall(Composer\Composer $composer, Composer\IO\IOInterface $io){}
+    public function uninstall(Composer\Composer $composer, Composer\IO\IOInterface $io){}
 
     /**
      * Update the stored database.
